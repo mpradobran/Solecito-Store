@@ -1,0 +1,227 @@
+body{
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'Campton-Medium';
+    src: url('/fonts/CamptonMedium.otf');
+}
+
+#title{
+    margin-left: 0px;
+    height: auto;
+    background-color: #FE935B;
+    padding: 0% 5%;
+}
+
+/* nav bar */
+.navbar {
+    background-color: d59e28;
+}
+
+.navbar-brand{
+    font-weight: 500 !important;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white !important;
+    margin-left: 5%;
+}
+
+.nav-link, .navbar-toggler{
+    color: rgba(251, 250, 250, 0.76);
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.img-princ {
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.txt-dsc {
+    font-family:'Unbounded';
+    color: #fff;
+    font-weight: 700;
+    font-size: 300%;
+    width: 100% !important;
+} 
+
+.padre-txt-dsc {
+    padding-top: 10rem;
+}
+
+.shop-button{
+    background-color: black !important;
+    color: white;
+    margin: 5% 3% 5% 0%;
+}
+
+.shop-button:hover{
+    background-color: rgba(255, 255, 255, 0.289) !important;
+}
+  /* Caracteristicas */
+
+#caracteristicas {
+    padding: 12% 20%;
+
+}
+
+.card, .card-msg {
+    padding: 2rem;
+    text-align: center;
+    height: 17rem;
+    margin-bottom: 2rem;
+    color: #4c4c4c;
+}
+
+.card-msg {
+    padding: 4rem;
+    border-color: white;
+}
+
+.img-caract {
+    color: #FFA23E;
+    padding-top: 1rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+/* CARRUSEL */
+
+#carrusel{
+    background-color: #F1CDAE;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23f4c498' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23f7bc81' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23f9b36b' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23fcab54' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23FFA23E' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.txt-c1,.txt-c2 {
+    color: rgb(9, 0, 54); 
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    padding: 10rem 3rem 2rem 0rem;
+    font-family: 'Campton-Medium';
+}
+
+.txt-c2 {
+    padding: 10rem 0rem 2rem 8rem;
+    width: 100%;
+}
+
+.btn-cropa,.btn-cropa2 {
+    color: rgb(9, 0, 54);
+    background-color: rgb(230, 227, 248);
+    font-weight: 400;
+    width: 10rem;
+    border-radius: 30px !important;
+}
+
+.btn-cropa:hover,.btn-cropa2:hover {
+    color:rgb(9, 0, 54);
+    background-color: rgba(255, 255, 255, 0.53);
+}
+
+.btn-cropa2 {
+    margin-left: 8rem;
+    width: 15rem;
+}
+
+.img-carrusel {
+    width: 35rem;
+    height: 45rem;
+}
+.img-carrusel2 {
+    width: 45rem;
+    height: 45rem;
+    margin-left: 5rem;
+}
+
+#message {
+    padding: 10%;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgba(152, 151, 151, 0.348);
+    padding: 8% 25% 3%;
+}
+
+@media (max-width:1000px) {
+    .txt-dsc {
+        font-weight: 700;
+    }     
+    .navbar {
+        margin-bottom: 30px;
+    }
+    .vertical-center {
+        margin-top: 3rem;
+    } 
+    .img-princ {
+        padding-top: 2rem;
+    }
+    .padre-txt-dsc {
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .navbar-brand {
+        font-size: 25px;
+        margin-left:2.5px;
+    }
+    .txt-carrusel {
+        text-align: center;
+    }
+    .btn-cropa, .btn-cropa2 {
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .img-carrusel2 {
+        width: 20rem;
+        height: 29rem;
+        margin-left: 0rem;
+    }
+    .txt-c1 {
+        margin-right: 1rem;
+    }
+    .txt-c2 {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    .img-carrusel {
+        width: 22rem;
+        height: 29rem;
+    }
+    .img-carrusel2 {
+        width: 25rem;
+        height: 29rem;
+    }
+    .txt-c1, .txt-c2 {
+        font-size: 28px;
+        padding: 0rem 0rem 1rem 0rem;
+    }
+    .txt-c2 {
+        width: 15rem; 
+        margin-left: 0rem;    
+    }
+}
+
+@media (max-width:500px) {
+    .txt-c2 {
+        width: 30rem; 
+    }
+    .img-carrusel2 {
+        width: 29rem;
+    }
+}

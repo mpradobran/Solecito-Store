@@ -1,0 +1,136 @@
+
+body{
+    background-color: #AFAFAF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23d6a186'/%3E%3Cstop offset='1' stop-color='%23d6a186' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23d6a186'/%3E%3Cstop offset='1' stop-color='%23d6a186' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23fe935b'/%3E%3Cstop offset='1' stop-color='%23fe935b' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23AFAFAF'/%3E%3Cstop offset='1' stop-color='%23AFAFAF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FE935B'/%3E%3Cstop offset='1' stop-color='%23FE935B' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FE935B'/%3E%3Cstop offset='1' stop-color='%23FE935B' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #999;
+}
+
+.separator::before,
+.separator::after {
+content: '';
+flex: 1;
+border-bottom: 0.5px solid;
+}
+
+.separator:not(:empty)::before {
+margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+margin-left: .25em;
+}
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.346) !important;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+    text-align: center;
+} 
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+} 
+
+.form-check {
+    text-align: left;
+}
+
+#btn-login {
+    color: white;
+    background-color: #FE935B;
+    width: 400px;
+    border-radius: 2rem;
+}
+
+#btn-login:hover {
+    color: #FE935B;
+    background-color: white;
+    border-color: #FE935B;
+}
+
+.form-control{
+    width: 25rem;
+}
+
+.txt-forget{
+    color: #FE935B;
+    font-weight: 700;
+    font-size: 13.9px;
+    text-decoration: none;
+}
+
+.txt-forget:hover, .txt_cuenta:hover{
+    text-decoration: underline;
+}
+
+.txt_cuenta {
+    text-decoration: none;
+    color: #FE935B;
+}
+
+.redes {
+    display: inline-block;
+}
+
+/* ICONOS */
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+
+  .eye{
+    position: absolute !important;
+    padding: 10px;
+    right: 0px;
+    color: gray;
+  }
+
+  /* align glyph */
+  .left-addon .glyphicon  { left:  0px;}
+  .right-addon .glyphicon { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+
+  @media (max-width:550px) {
+    .container{
+        width:
+         22rem;      
+    }
+    .form-control {
+        width: 16rem;
+    }     
+    
+    #btn-login {
+        width: 250px;
+    }
+       
+  }
