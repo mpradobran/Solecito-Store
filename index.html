@@ -6,7 +6,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Unbounded:wght@200;300;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Montserrat:wght@300;400;500;600;700;800;900&family=Unbounded:wght@200;300;600;800;900&display=swap" rel="stylesheet">
   
     <!-- CSS Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -64,8 +64,8 @@
     
     <section id="caracteristicas">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="card shadow-lg">
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-lg card-c">
                     <i class="img-caract fa-solid fa-arrow-right-arrow-left fa-2xl"></i>                            
                     <div class="card-body mt-4">
                       <h5 class="card-title">Cambio y devoluciones</h5>
@@ -74,8 +74,8 @@
                 </div>                    
             </div>
 
-            <div class="col-lg-4">
-                <div class="card shadow-lg">
+            <div class="col-lg-4 col-md-6">
+                <div class="card shadow-lg card-c">
                     <i class="img-caract fa-solid fa-shop fa-2xl"></i>                            
                     <div class="card-body mt-4">
                       <h5 class="card-title">Recogida y Devolución en tienda</h5>
@@ -85,7 +85,7 @@
             </div>
 
             <div class="col-lg-4">
-                <div class="card shadow-lg">
+                <div class="card shadow-lg card-c">
                     <i class="img-caract fa-regular fa-credit-card fa-2xl"></i>                            
                     <div class="card-body mt-4">
                       <h5 class="card-title">Pagos seguros</h5>
@@ -97,12 +97,12 @@
     </section>
 
     <section id="carrusel"> 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">              
                 <div class="row">
                   <div class="col-lg-6 col-sm-6 txt-carrusel">
-                    <img src="img/c2.png" class="d-block img-carrusel" alt="...">
+                    <img src="img/c1.png" class="d-block img-carrusel" alt="...">
                   </div>
                   <div class="col-lg-6 col-sm-6 txt-carrusel">
                       <h2 class="txt-c1">Descubre las prendas más inspiradoras de la nueva colección.</h2>
@@ -112,53 +112,105 @@
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-lg-6 col-sm-4 txt-carrusel">
-                    <h2 class="txt-c2">Encuentra y arma los outfits perfectos para esta temporada.</h2>
-                    <button type="button" class="btn btn-lg p-3 btn-cropa2 shadow">Ir al Catalogo</button>
+                  <div class="col-lg-6 col-sm-6 txt-carrusel">
+                    <img src="img/c2.png" class="d-block img-carrusel2" alt="...">
                   </div>
-                  <div class="col-lg-6 col-sm-8 txt-carrusel">
-                    <img src="img/c4.png" class="d-block img-carrusel2" alt="...">
+                  <div class="col-lg-6 col-sm-6 txt-carrusel">
+                    <h2 class="txt-c2">Encuentra los outfits perfectos para esta temporada.</h2>
+                    <button type="button" class="btn btn-lg p-3 btn-cropa2 shadow">Ir al Catalogo</button>             
                   </div>
+                </div>
               </div>
-            </div>
-            </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6 txt-carrusel">
+                    <h2 class="txt-c3">Explora las novedades en el catalogo de accesorios y joyas.</h2>
+                    <button type="button" class="btn btn-lg p-3 btn-cropa3 shadow">Ir al Catalogo</button>
+                  </div>
+                  <div class="col-lg-6 col-sm-6 txt-carrusel">
+                    <img src="img/image.png" class="d-block img-carrusel3" alt="...">
+                  </div>
+                </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>   
     </section>
 
-    <section id="message">
+    <section id="new-arrivals">
+      <h2 class="font_2">New Arrivals</h2>
       <div class="row">
-        <div class="col-lg-6">
-            <div class="card card-msg shadow-lg">
-                <i class="fa-solid fa-truck-fast fa-2xl" style="color:#4c4c4c;"></i>                            
-                <div class="card-body mt-4">
-                  <h5 class="card-title">Envíos y devoluciones GRATIS</h5>
-                  <p class="card-text">Disfruta de envíos y devoluciones gratuitas en pedidos superiores a U$10.</p>
-                </div>
-            </div>                    
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="img/na1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Set de anillos de oro de 10k.</p>
+            </div>
+          </div>                
         </div>
 
-        <div class="col-lg-6">
-            <div class="card card-msg shadow-lg">
-                <i class="fa-solid fa-gift fa-2xl" style="color:#4c4c4c;"></i>                           
-                <div class="card-body mt-4">
-                  <h5 class="card-title">Consigue un 10% de descuento</h5>
-                  <p class="card-text">Suscríbete a nuestra newsletter y consigue un 10% de descuento en tu primera compra online.</p>
-                </div>
-            </div>                                  
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <img src="img/na2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Conjunto de cadena de acero inoxidable.</p>
+            </div>
+          </div>
         </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="img/na3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Set de anillos de acero inoxidable.</p>
+            </div>
+          </div>
+        </div>        
     </div>
     </section>
     
   <!-- Footer -->
 
   <footer id="footer">
+    <div class="row row-footer">
+      <div class="col-lg-3 mt-4 mb-5">
+        <h4>Servicio al cliente</h4><br>
+        <a class="list">FAQ</a><br><br>
+        <a class="list">Envio y devoluciones</a><br><br>
+        <a class="list">Politicas de la tienda</a><br>
+      </div>
 
-    <i class="rs-icon fa-brands fa-twitter"></i>
-    <i class="rs-icon fa-brands fa-facebook"></i>
-    <i class="rs-icon fa-brands fa-instagram"></i>
-    <i class="rs-icon fa-solid fa-envelope"></i>  
+      <div class="col-lg-3 mt-4 mb-5">
+        <h4>Contáctanos</h4><br>
+        <a target="_blank" href="https://instagram.com/solecitostore_?igshid=YmMyMTA2M2Y=" class="list">Instagram</a><br><br>
+        <a class="list">Facebook</a><br><br>
+        <a class="list">Contacto</a><br>
+      </div>
 
-    <p style="color: gray;">© Copyright Michelle Prado</p>
+      <div class="col-lg-3 mt-4 mb-5">
+        <h4>La empresa</h4><br>
+        <a class="list">Acerca de Nosotros</a><br><br>
+        <a class="list">Sostenibilidad</a><br><br>
+        <a class="list">Ubicación</a><br>
+      </div>
+
+      <div class="col-lg-3 mt-4 mb-5">
+        <h4>Registrate y recibe ofertas especiales</h4><br>
+        <p class="list">Ingresa tu correo electrónico aquí *</a><br>
+        <input class="correo" type="email"><br>
+        <button class="btn-enviar">Enviar</button>
+      </div>
+    </div>
+
+    <div class="band-copy">
+      <p style="color: white;">© 2023 by Michelle Prado</p>
+    </div>
   </footer>
 
 </body>
