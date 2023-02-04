@@ -264,6 +264,22 @@ body{
         padding-top: 5rem !important;
         margin-left: 0rem !important;
     }   
+    .list, .card-text, .card-title{
+        font-size: 1.5rem;
+    }
+    h4, .font_2{
+        font-size: 2rem;
+    }
+    .btn-enviar{
+        width: 450px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .correo{
+        width: 450px;
+        height: 50px;
+        padding-left: 3px;
+    }
 }
 
 @media (max-width:900px) {
@@ -294,7 +310,6 @@ body{
     .btn-cropa3{
         margin-left: 25% !important;
     }
-
 }
 
 @media (max-width:700px) {
@@ -316,7 +331,6 @@ body{
         font-size: 25px;
         padding-top: 0rem !important;    
     }
-
 }
 
 @media (max-width:500px) {
@@ -338,10 +352,6 @@ body{
     }
     .btn-cropa, .btn-cropa2{
         margin-left: 22% !important;
-    }
-
-    #footer {
-        font-size: 20px;
     }
 
 }
